@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "RCLib"
   spec.version      = "0.0.1"
-  spec.summary      = "This Library is a Test library that provides the functionality of fetch data from a URL and storing it in Userdefaults"
+  spec.summary      = "This Library is a Test library that provides the functionality of fetch data from a URL."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -63,8 +63,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "10.0"
-
+  spec.platform     = :ios, "12.0"
+  spec.swift_versions = ['5.0']
   #  When using multiple platforms
   # spec.ios.deployment_target = "10.0"
   # spec.osx.deployment_target = "10.7"
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Sources/RCLib", "Sources/RCLib/**/*.{h,m}"
+  spec.source_files  = "Sources/RCLib", "Sources/RCLib/**/*.{swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
