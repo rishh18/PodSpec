@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
     spec.swift_version       = "5.0"
 
   spec.source       = { :git => "https://github.com/rishh18/TestLibrary.git", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = "SOURCES/TestLibrary.xcframework"
+  spec.vendored_frameworks = "Sources/TestLibrary.xcframework"
 
 end
