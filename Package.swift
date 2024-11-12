@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "TestLibrary",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v14)
     ],
     products: [
         .library(
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TestLibrary",
-            url: "https://github.com/ankushkumar5/TestLibrary/releases/download/0.0.1/TestLibrary.xcframework.zip",
-            checksum: "6e48f02d4546170adf9f1785cf574ca421cbdbeb90fc0f71f624967ea156bab3"
+            url: "https://github.com/rishh18/TestLibrary/releases/download/0.0.1/TestLibrary.xcframework.zip",
+            checksum: "86a577303c4981ede57cd9889ba2b97c"
         )
     ]
 )
